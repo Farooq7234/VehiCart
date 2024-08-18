@@ -139,22 +139,23 @@ const products = [
 
 const serviceData = [
     {
-        value1: "Free shipping",
-        value2: "Above $5 Only"
+        value1: "Free Maintenance",
+        value2: "On All Rentals"
     },
     {
-        value1: "Certified Organic",
-        value2: "100% Guarantee"
+        value1: "Verified Vehicles",
+        value2: "Quality Assured"
     },
     {
-        value1: "Huge Savings",
-        value2: "At Lowest Price"
+        value1: "Flexible Pricing",
+        value2: "Best Rates Guaranteed"
     },
     {
-        value1: "Easy Return",
-        value2: "No Question Asked"
+        value1: "Easy Cancellation",
+        value2: "Hassle-Free Process"
     },
-]
+];
+
 
 const featuresData = [{
     title: "Farm Fresh Fruits",

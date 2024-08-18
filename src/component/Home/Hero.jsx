@@ -12,9 +12,9 @@ function Hero() {
   const deletionSpeed = 50;
 
   const images = [
-    'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13cc7000d37936488/view?project=66c0e45b0025da8c44ea&mode=admin',
+    'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13ce30015d78e755c/view?project=66c0e45b0025da8c44ea&mode=admin',
     'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13dfb001ee82e7c38/view?project=66c0e45b0025da8c44ea&mode=admin',
-    'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13cc7000d37936488/view?project=66c0e45b0025da8c44ea&mode=admin'
+    'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13c3c000410d2eaa1/view?project=66c0e45b0025da8c44ea&mode=admin'
   ];
   const imageChangeInterval = 5000; // 5 seconds
 

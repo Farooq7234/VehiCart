@@ -112,7 +112,7 @@ const App = () => {
   if (loading) {
     return (
       <div style={styles.loaderContainer}>
-        <GridLoader color="#8bc34a" loading={loading} size={20} />
+        <GridLoader color="#fd4545" loading={loading} size={20} />
       </div>
     )
   }
