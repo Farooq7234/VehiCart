@@ -2,65 +2,65 @@ const products = [
     {
         id: `product_${Date.now()}_1`,
         popularity: "best selling",
-        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c0e4a700387f62f5e7/view?project=66c0e45b0025da8c44ea&mode=admin',
-        category: "Groceries",
-        productName: "Assorted Coffee",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13d29001ce92a4de7/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Cars",
+        productName: "Suzuki Swift",
         price: 90
     },
     {
         id: `product_${Date.now()}_2`,
         popularity: "best selling",
-        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c0e57a0022db641204/view?project=66c0e45b0025da8c44ea&mode=admin',
-        category: "Groceries",
-        productName: "Cashew Butter",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13c80001ef1696f58/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Cars",
+        productName: "Honda City",
         price: 20
     },
     {
         id: `product_${Date.now()}_3`,
         popularity: "best selling",
-        productImage: 'https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/diabetic-cookies-300x300.jpg',
-        category: "Groceries",
-        productName: "Diabetic Cookies",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13cee0039618acfc2/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Cars",
+        productName: "Honda Innova Crysta",
         price: 50
     },
     {
         id: `product_${Date.now()}_4`,
         popularity: "best selling",
-        productImage: 'https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/organic-honey-300x300.jpg',
-        category: "Groceries",
-        productName: "Organic Honey",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13d1d001426a90f4d/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Cars",
+        productName: "Mahindra XUV700",
         price: 90
     },
     {
         id: `product_${Date.now()}_5`,
         popularity: "trending products",
-        productImage: 'https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/edible-oil-300x300.jpg',
-        category: "Groceries",
-        productName: "Edible Oil",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13d340039441545ec/view?project=66c0e45b0025da8c44ea&mode=admin ',
+        category: "Cars",
+        productName: "Nisson Magnite",
         price: 80
     },
     {
         id: `product_${Date.now()}_6`,
         popularity: "trending products",
-        productImage: 'https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/sanitizer-300x300.jpg',
-        category: "Groceries",
-        productName: "Sanitizer",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13d4b0010e50b5f9d/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Cars",
+        productName: "Tata Nexon",
         price: 15
     },
     {
         id: `product_${Date.now()}_7`,
         popularity: "trending products",
-        productImage: 'https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/red-chillies-300x300.jpg',
-        category: "Groceries",
-        productName: "Red Chillies",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13dfb001ee82e7c38/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bicycles",
+        productName: "Btwin 300",
         price: 56
     },
     {
         id: `product_${Date.now()}_8`,
         popularity: "trending products",
-        productImage: 'https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/face-wash-300x300.jpg',
-        category: "Groceries",
-        productName: "Face Wash",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13cc7000d37936488/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Cars",
+        productName: "Ford EcoSport",
         price: 10
     },
     {
