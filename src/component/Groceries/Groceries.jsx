@@ -17,9 +17,9 @@ function Groceries() {
 
   const filteredProducts = products.filter(item => {
     if (searchTerm === "") {
-      return item.category === "Groceries";
+      return item.category === "Cars";
     } else {
-      return item.category === "Groceries" && item.productName.toLowerCase().includes(searchTerm);
+      return item.category === "Cars" && item.productName.toLowerCase().includes(searchTerm);
     }
   });
 
@@ -28,7 +28,7 @@ function Groceries() {
       <ThemeBtn />
       <div className='flex flex-col justify-center items-center gap-10 py-10 bg-[#f8f6f3] dark:bg-black pt-24'>
         <div className='flex flex-wrap gap-10 justify-around items-center w-full'>
-          <p className='text-4xl font-medium text-[#8bc34a] font-serif'>Groceries</p>
+          <p className='text-4xl font-medium text-[#8bc34a] font-serif'>Cars</p>
           <Search onSearch={handleSearch} />
         </div>
         <div className='grid  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols- xl:grid-cols-4 gap-10'>

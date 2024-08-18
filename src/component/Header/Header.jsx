@@ -39,7 +39,7 @@ const Header = ({ image }) => {
         <ul className='flex justify-between items-center sm:gap-5 lg:gap-10'>
           <img src={logo} className=' h-12 dark:text-white cursor-pointer' alt='Logo' onClick={handleLogoClick} />
           {['Everything', 'Groceries', 'Juice'].map((category, index) => (
-            <li key={index} className='dark:text-white text-base cursor-pointer font-normal text-black hover:text-[#fd4545] font-sans'>
+            <li key={index} className='dark:text-white text-lg cursor-pointer font-normal text-black hover:text-[#fd4545] font-sans'>
               <NavLink to={`/${category.toLowerCase()}`} className={({ isActive }) => `duration-200 max-md:hidden ${isActive ? 'text-[#fd4545] ' : 'text-gray-700 dark:text-white dark:hover:text-[#fd4545]'}  lg:hover:bg-transparent lg:border-0 hover:text-[#fd4545] lg:p-0`}>
                 {category}
               </NavLink>
@@ -48,11 +48,11 @@ const Header = ({ image }) => {
         </ul>
 
         <ul className='flex justify-around items-center gap-2 sm:gap-5 lg:gap-10'>
-          <li className='text-base cursor-pointer font-medium text-black hover:text-[#fd4545] font-sans dark:text-white max-md:hidden'>
+          <li className='text-lg cursor-pointer font-medium text-black hover:text-[#fd4545] font-sans dark:text-white max-md:hidden'>
             <NavLink to='/about'>About</NavLink>
           </li>
-          <li className='text-base cursor-pointer font-medium text-black hover:text-[#fd4545] font-sans dark:text-white max-md:hidden'>
-            <NavLink to='/github'>Github </NavLink>
+          <li className='text-lg cursor-pointer font-medium text-black hover:text-[#fd4545] font-sans dark:text-white max-md:hidden'>
+            <NavLink to='/contactus'>Contact Us </NavLink>
           </li>
           <TotalCalculator />
           <li className='cursor-pointer text-[#fd4545] font-sans'>

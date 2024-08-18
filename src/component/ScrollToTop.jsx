@@ -32,7 +32,7 @@ const GoToTop = () => {
       {isVisible && (
         <div className="fixed bottom-4 right-4">
           <div
-            className="bg-[#8bc34a] rounded-full w-9 h-9 px-1 py-1 cursor-pointer"
+            className="bg-[#fd4545] rounded-full w-9 h-9 px-1 py-1 cursor-pointer"
             onClick={goToTop}
           >
             <FaArrowUp className="text-white animate-bounce text-xl mx-1 my-2" />

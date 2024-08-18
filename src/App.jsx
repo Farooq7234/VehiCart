@@ -5,7 +5,6 @@ import Home from './component/Home/Home.jsx'
 import About from './component/About/About.jsx'
 import Groceries from './component/Groceries/Groceries.jsx'
 import Juice from './component/Juice/Juice.jsx'
-import Github, { githubInfoLoader } from './component/Github/Github.jsx'
 import NotFoundPage from './component/NotFoundPage/NotFoundPage.jsx'
 import Everything from './component/Everthing/Everything.jsx'
 import ProductPage from './component/ProductPage.jsx'
@@ -20,6 +19,7 @@ import GridLoader from 'react-spinners/GridLoader'
 import { setUserId, setCartItems } from './redux/slice/cartSlice.js'
 import { useSelector } from 'react-redux'
 import cartservice from './appwrite/config.js'
+import ContactUs from './component/Contact Us/ContactUs.jsx'
 
 const styles = {
   loaderContainer: {
@@ -37,7 +37,7 @@ const router = createBrowserRouter(
       <Route path='/everything' element={<Everything />} />
       <Route path='/groceries' element={<Groceries />} />
       <Route path='/juice' element={<Juice />} />
-      <Route loader={githubInfoLoader} path='github' element={<Github />} />
+      <Route  path='contactus' element={<ContactUs />} />
       <Route path='/products/:productDetails' Component={ProductPage} />
       <Route path='/about' element={<About />} />
       <Route path='*' element={<NotFoundPage />} />

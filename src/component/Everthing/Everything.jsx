@@ -35,7 +35,7 @@ function Everthing() {
         <ThemeBtn/>
       <div className='flex flex-col justify-center items-center gap-10  py-10 bg-[#f8f6f3] dark:bg-black pt-28'>
         <div className='flex flex-wrap gap-10 justify-around items-center w-full'>
-          <p className='text-4xl font-medium text-[#8bc34a] font-serif'>Shop</p>
+          <p className='text-4xl font-medium text-[#fd4545] font-serif'>Collection</p>
           <Search onSearch={handleSearch} />
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols- xl:grid-cols-4 gap-10'>

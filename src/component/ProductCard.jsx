@@ -16,7 +16,7 @@ function ProductCard({ productImage, productName, price, category }) {
             <span className="text-yellow-400 mr-1" key={index}>{star}</span>
           ))}
         </div>
-        <p className="mt-2 text-gray-600 dark:text-gray-200 font-semibold">${price}</p>
+        <p className="mt-2 text-gray-600 dark:text-gray-200 font-semibold">${price}/day</p>
         <div className="mt-4">
           <Link to={`/products/${productName}`} className="block px-3 py-2 bg-gray-950  text-white text-center rounded-md transition duration-300 ease-in-out hover:bg-gray-900">View Details</Link>
         </div>
