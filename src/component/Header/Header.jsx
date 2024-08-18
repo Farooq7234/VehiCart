@@ -38,7 +38,7 @@ const Header = ({ image }) => {
 
         <ul className='flex justify-between items-center sm:gap-5 lg:gap-10'>
           <img src={logo} className=' h-12 dark:text-white cursor-pointer' alt='Logo' onClick={handleLogoClick} />
-          {['Everything', 'Groceries', 'Juice'].map((category, index) => (
+          {['Everything', 'Cars', 'Bikes'].map((category, index) => (
             <li key={index} className='dark:text-white text-lg cursor-pointer font-normal text-black hover:text-[#fd4545] font-sans'>
               <NavLink to={`/${category.toLowerCase()}`} className={({ isActive }) => `duration-200 max-md:hidden ${isActive ? 'text-[#fd4545] ' : 'text-gray-700 dark:text-white dark:hover:text-[#fd4545]'}  lg:hover:bg-transparent lg:border-0 hover:text-[#fd4545] lg:p-0`}>
                 {category}
@@ -80,7 +80,7 @@ const Header = ({ image }) => {
           <div className='fixed top-0 left-0 h-full  w-[70%] z-10 bg-gray-100 dark:bg-black sm:hidden'>
             <ul className='flex justify-around flex-col items-center h-1/2 pt-5' onClick={toggleSidebar}>
 
-              {['Home', 'Everything', 'Groceries', 'About', 'Github'].map((link, index) => (
+              {['Home', 'Everything', 'Cars', 'Bikes', 'ContactUs'].map((link, index) => (
                 <li key={index} className='w-full py-2 text-lg text-center hover:bg-[#fd4545] dark:text-white'>
                   <NavLink to={index === 0 ? '/' : `/${link.toLowerCase()}`} className={`px-${index === 0 ? '20' : '14'} py-3`}>{link}</NavLink>
                 </li>

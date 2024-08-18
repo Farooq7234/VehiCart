@@ -65,72 +65,72 @@ const products = [
     },
     {
         id: `product_${Date.now()}_9`,
-        productImage: 'https://images.unsplash.com/photo-1626120032630-b51c96a544f5?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Apple juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13cbb0036d3c4cf1d/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "Honda",
         price: 90
     },
     {
         id: `product_${Date.now()}_10`,
-        productImage: 'https://images.unsplash.com/photo-1613478223719-2ab802602423?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Orange juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13c490030609036c9/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "Aprilla",
         price: 45
     },
     {
         id: `product_${Date.now()}_11`,
-        productImage: 'https://images.unsplash.com/photo-1473115209096-e0375dd6b3b3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Coconut juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13cbb0036d3c4cf1d/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "Jupiter",
         price: 80
     },
     {
         id: `product_${Date.now()}_12`,
-        productImage: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Strawberry juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13dcc003d336c92b8/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bicycles",
+        productName: "heroSprint",
         price: 25
     },
     {
         id: `product_${Date.now()}_13`,
-        productImage: 'https://images.unsplash.com/photo-1603028769268-94e389e60414?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Pomegranate juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13c30001c720d98d2/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "Blue Unicorn",
         price: 100
     },
     {
         id: `product_${Date.now()}_14`,
-        productImage: 'https://images.unsplash.com/photo-1567587407679-8187b3b972aa?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Watermelon juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c0e6a70033071f7bee/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "Rafgnor 170",
         price: 35
     },
     {
         id: `product_${Date.now()}_15`,
-        productImage: 'https://images.unsplash.com/photo-1619898804188-e7bad4bd2127?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Mango juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13d5700103a8f5aac/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "Black Monster",
         price: 10
     },
     {
         id: `product_${Date.now()}_16`,
-        productImage: 'https://images.unsplash.com/photo-1525904097878-94fb15835963?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Pineapple juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c0e63f003b76e4988f/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "BSA LadyBird",
         price: 65
     },
     {
         id: `product_${Date.now()}_17`,
-        productImage: 'https://images.unsplash.com/photo-1473348229220-66f5e48021f3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Kiwi juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13c490030609036c9/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bikes",
+        productName: "Red Thunder 100 ",
         price: 95
     },
     {
         id: `product_${Date.now()}_18`,
-        productImage: 'https://images.unsplash.com/photo-1699294899842-c59b12cc0249?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        category: "Juice",
-        productName: "Muskmelon juice",
+        productImage: 'https://cloud.appwrite.io/v1/storage/buckets/66c0e4820009a5f98c53/files/66c13dcc003d336c92b8/view?project=66c0e45b0025da8c44ea&mode=admin',
+        category: "Bicycles",
+        productName: "Hercules R1",
         price: 70
     },
 ];
