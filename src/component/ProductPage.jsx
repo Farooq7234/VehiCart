@@ -5,10 +5,10 @@ import { toast } from 'react-hot-toast';
 import { add, setUserId } from '../redux/slice/cartSlice';
 import cartservice from '../appwrite/config';
 import authService from '../appwrite/auth';
+import { products } from './mockData.js';
 
 function ProductPage() {
     const authStatus = useSelector((state)=> state.auth.status)
-    const products = useSelector((state) => state.product.products);
     const userId = useSelector((state) => state.cart.userId);
     const { productDetails } = useParams();
     const dispatch = useDispatch();
@@ -80,9 +80,7 @@ function ProductPage() {
             <div className='flex justify-start gap-5 flex-col w-[300px] md:w-[40%]'>
                 <h2 className='text-3xl lg:text-4xl font-bold font-serif'>{product.productName}</h2>
                 <div className='flex gap-3'>
-                    <p className='font-bold text-lg sm:text-xl '>$ {product.price} </p>
-                    <p className='text-lg font-bold sm:text-xl'>+</p>
-                    <p className='text-lg font-bold sm:text-xl text-orange-400'>Free Shipping</p>
+                    <p className='font-bold text-lg sm:text-xl '>$ {product.price}/day</p>
                 </div>
                 <p className='text-base'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia, voluptas id quis, consectetur molestias culpa,</p>
                 <p className='text-base'> Omnis in totam nobis alias explicabo molestias asperiores? Magni, aliquid molestiae.!</p>
